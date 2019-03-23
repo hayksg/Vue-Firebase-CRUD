@@ -1,0 +1,68 @@
+/* @import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss'; */
+
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
+.sidebar-ul {
+  margin-top: 12px;
+
+  li a {
+    color: #949FA9;
+
+    &:hover {
+      color: darken(#949FA9, 20%);
+      text-decoration: none;
+    }
+  }
+}
+
+.post-img {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+
+table tr th, table tr td {
+  vertical-align: middle !important;
+}
+
+table thead.app-thead-dark {
+  background-color: #2C3E50;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.admin-table tr td img {
+  width: 100px;
+}
+
+.form-control.is-invalid {
+  background-image: none !important;
+}
+
+.my-textarea {
+  width: 99%;
+  border: 1px solid #ccc;
+}
+
+
+
+@media only screen 
+and (max-width: 768px)
+and (min-width: 576px) {
+  .app-container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media only screen 
+and (max-width: 992px)
+and (min-width: 769px) {
+  .app-container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
